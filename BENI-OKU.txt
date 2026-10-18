@@ -1,0 +1,9 @@
+APK nasil alinir:
+1) github.com'da ucretsiz hesap ac, "New repository" ile yeni bir depo olustur.
+2) Bu klasorun icindeki her seyi depoya yukle (Add file > Upload files).
+   .github klasoru da yuklenmeli. Yuklenmezse: Add file > Create new file,
+   adina .github/workflows/build-apk.yml yaz, dosyanin icerigini yapistir.
+3) Ustteki "Actions" sekmesine gir, "APK derle" > "Run workflow" de.
+4) 5-10 dk sonra yesil tik cikinca ise tikla, en altta "Artifacts"
+   bolumunden hatoya-kosuyorum-apk dosyasini indir. Zip'ten cikan
+   app-debug.apk telefona kurulabilir (imzali, ek islem gerekmez).
